@@ -1,0 +1,9 @@
+{
+  "name": "grounding-check",
+  "version": "0.1.0",
+  "description": "Offline check that RAG answers cite real sources and quote them correctly",
+  "type": "module",
+  "bin": { "grounding-check": "src/cli.mjs" },
+  "scripts": { "test": "node --test test/" },
+  "license": "MIT"
+}
